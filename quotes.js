@@ -13,6 +13,7 @@ async function start() {
     await getQuotes();
 
     inspiracao();
+    setInterval(inspiracao, 10000);
 }
 
 async function getQuotes() {

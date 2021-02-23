@@ -1,0 +1,27 @@
+{
+  "name": "quotes",
+  "version": "1.0.0",
+  "description": "Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, administrador do grupo **[OsProgramadores](https://t.me/osprogramadores)**, a partir da frase  \"Todo dia uma msg nesse grupo que te inspira a continuar, ótimo\" (MERCER, Mateus).",
+  "main": "App.js",
+  "scripts": {
+    "server": "nodemon App.js",
+    "start": "node App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardocamps/quotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardocamps/quotes/issues"
+  },
+  "homepage": "https://github.com/bernardocamps/quotes#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1"
+  },
+  "type": "module"
+}

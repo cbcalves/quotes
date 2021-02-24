@@ -1,0 +1,1 @@
+DB_CONNECTION="mongodb+srv://username:password@cluster0.3pily.mongodb.net/quotes?retryWrites=true&w=majority"

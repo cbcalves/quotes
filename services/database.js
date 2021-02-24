@@ -1,16 +1,32 @@
-import { promises as fs } from 'fs';
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 // Utilizando Quotes Free API
 // https://type.fit/api/quotes carregados para o arquivo quotes.txt
 // Este é praticamente o único arquivo para mudar quando for usar um banco de dados.
 
-let db_quotes = [];
-const fileName = './data/quotes.txt';
+const schema = mongoose.Schema({
+    text: String,
+    author: String,
+});
+
+const quoteModel = mongoose.model('quote', schema);
+
+let db_quotes = null;
+let db_length = 0;
 
 async function connect() {
     try {
-        const readData = await fs.readFile(fileName);
-        db_quotes = JSON.parse(readData);
+        const { DB_CONNECTION } = process.env;
+        db_quotes = await mongoose.connect(DB_CONNECTION, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+            useFindAndModify: false,
+        });
+
+        db_length = await quoteModel.countDocuments({});
         return true;
     } catch (err) {
         console.log('DB ' + err);
@@ -20,12 +36,21 @@ async function connect() {
 
 async function read(id) {
     try {
+        let quote = null;
         if (id === undefined) {
-            let rand = Math.floor(Math.random() * db_quotes.length);
-            return db_quotes[rand];
+            const rand = Math.floor(Math.random() * db_length);
+            quote = await quoteModel.find({}).skip(+rand).limit(1);
+        } else {
+            quote = await quoteModel.find({}).skip(+id).limit(1);
         }
 
-        return db_quotes[id];
+        // Don't return _id
+        quote = {
+            text: quote[0].text,
+            author: quote[0].author,
+        }
+
+        return quote;
     } catch (err) {
         console.log(err);
         return null;
@@ -35,11 +60,10 @@ async function read(id) {
 async function create(quote) {
     try {
         const { text, author } = quote;
-        const newQuote = { text, author };
-        db_quotes.push(newQuote);
+        const newQuote = new quoteModel({ text, author });
 
-        await fs.writeFile(fileName, JSON.stringify(db_quotes));
-        return db_quotes.length;
+        await newQuote.save();
+        return db_length++;
     } catch (err) {
         console.log(err);
         return false;
@@ -48,15 +72,12 @@ async function create(quote) {
 
 async function update(quote, id) {
     try {
-        const { text, author } = quote;
-        const newQuote = { text, author };
-
-        if (!db_quotes[id]) {
-            throw("No id");
+        const updateQuote = await quoteModel.find({}).skip(+id).limit(1);
+        if (!updateQuote) {
+            throw ("No id");
         }
-        db_quotes[id] = newQuote;
 
-        await fs.writeFile(fileName, JSON.stringify(db_quotes));
+        await quoteModel.findByIdAndUpdate(updateQuote[0]._id, quote);
         return true;
     } catch (err) {
         console.log(err);
@@ -66,19 +87,18 @@ async function update(quote, id) {
 
 async function deleteOne(id) {
     try {
-        if (!db_quotes[id]) {
-            throw("No id");
+        const quote = await quoteModel.find({}).skip(+id).limit(1);
+        if (!quote) {
+            throw ("No id");
         }
-        db_quotes.splice(id, 1);
-
-        await fs.writeFile(fileName, JSON.stringify(db_quotes));
+        --db_length;
+        await quoteModel.deleteOne({ _id: quote[0]._id });
         return true;
     } catch (err) {
         console.log(err);
         return false;
     }
 }
-
 
 export default {
     connect,

@@ -5,7 +5,7 @@ let globalButton = null;
 /**
  * Mudar esta página para o local da API
  */
-const globalPAGE = 'http://localhost:3000/api/';
+const globalPAGE = window.location.href + 'api/';
 
 window.addEventListener('load', start);
 

@@ -32,7 +32,7 @@ const read = async (req, res) => {
 const update = async (req, res) => {
     const id = req.params.id;
     try {
-        const quote = await db.read(id);
+        let quote = await db.read(id);
         if (!quote) {
             throw ('Invalid id: ' + id);
         }
@@ -42,8 +42,8 @@ const update = async (req, res) => {
             throw ("Need text and author");
         }
 
-        await db.update({ text, author }, id);
-        res.send({ text, author });
+        quote = db.update({ text, author }, id);
+        res.send(quote);
     } catch (err) {
         res.status(400).send({ error: err });
     }

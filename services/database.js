@@ -57,10 +57,10 @@ async function update(quote, id) {
         db_quotes[id] = newQuote;
 
         await fs.writeFile(fileName, JSON.stringify(db_quotes));
-        return true;
+        return newQuote;
     } catch (err) {
         console.log(err);
-        return false;
+        return null;
     }
 }
 

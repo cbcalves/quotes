@@ -72,13 +72,13 @@ async function create(quote) {
 
 async function update(quote, id) {
     try {
-        const updateQuote = await quoteModel.find({}).skip(+id).limit(1);
+        let updateQuote = await quoteModel.find({}).skip(+id).limit(1);
         if (!updateQuote) {
             throw ("No id");
         }
 
-        await quoteModel.findByIdAndUpdate(updateQuote[0]._id, quote);
-        return true;
+        updateQuote = await quoteModel.findByIdAndUpdate(updateQuote[0]._id, quote, { new: true });
+        return updateQuote;
     } catch (err) {
         console.log(err);
         return false;

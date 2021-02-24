@@ -33,7 +33,15 @@ async function getQuote() {
 async function inspiracao() {
     const quote = await getQuote();
     if (quote) {
-        globalText.innerHTML = quote.text;
-        globalAuthor.innerHTML = quote.author;
+        let { text, author } = quote;
+        if (!text) {
+            text = 'No Text';
+        }
+        if (!author) {
+            author = 'Unknown';
+        }
+
+        globalText.innerHTML = text;
+        globalAuthor.innerHTML = author;
     }
 }

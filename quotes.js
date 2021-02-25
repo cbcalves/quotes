@@ -21,18 +21,16 @@ async function start() {
 
 async function getQuotes() {
     try {
-        res = await fetch('https://type.fit/api/quotes');
+        res = await fetch('LINK DA API AQUI');
         globalQuotes = await res.json();
 
     } catch (err) {
         console.log(err);
 
-        /// Pode comentar aqui, assim ele está mostrando o erro como um quote kkkk
         globalQuotes = [{
             text: err,
             author: 'Error'
         }];
-        /////
     }
 }
 

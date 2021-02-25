@@ -11,7 +11,7 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Introdução de css e melhorias na interface.
 - [x] Mudança para async/await - economia de dados da API.
 - [x] Adicionado botão para atualizar a página.
-- [ ] Pendente em relação ao botão atualizar: ajustar CSS - [Issue](https://github.com/bernardocamps/quotes/issues/10)
+- [x] Botão atualizar: ajustar CSS - [Issue](https://github.com/bernardocamps/quotes/issues/10)
 - [ ] Backend em desenvolvimento.
 - [ ] Criar banco de dados para armazenar as quotes.
 
@@ -23,4 +23,5 @@ Link: https://bernardocamps.github.io/quotes/
 * O que é uma Função Assíncrona? - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
 * O que significa a declaração try...catch? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch)
 * O que são Operadores de Comparação? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_de_comparação)
+* Saiba mais sobre Assessores de Propriedade - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Property_Accessors)
 * Introdução a Node e Express - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdução)

@@ -27,3 +27,4 @@ Link: https://bernardocamps.github.io/quotes/
 * O que são Operadores de Comparação? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_de_comparação)
 * Saiba mais sobre Assessores de Propriedade - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Property_Accessors)
 * Introdução a Node e Express - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdução)
+* Como não deixar exposta a credencial de acesso ao Banco de Dados? [Link](https://github.com/motdotla/dotenv)

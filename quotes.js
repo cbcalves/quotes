@@ -21,7 +21,8 @@ async function start() {
 
 async function getQuotes() {
     try {
-        res = await fetch('LINK DA API AQUI');
+        // API temporária
+        res = await fetch('https://goquotes-api.herokuapp.com/api/v1/all/quotes');
         globalQuotes = await res.json();
 
     } catch (err) {
@@ -38,7 +39,7 @@ function inspiracao() {
     if (globalQuotes.length === 0) {
         return;
     }
-    var i = Math.floor(Math.random() * globalQuotes.length);
-    globalText.innerHTML = globalQuotes[i].text;
-    globalAuthor.innerHTML = globalQuotes[i].author;
+    var i = Math.floor(Math.random() * globalQuotes.quotes.length);
+    globalText.innerHTML = globalQuotes.quotes[i].text;
+    globalAuthor.innerHTML = globalQuotes.quotes[i].author;
 }

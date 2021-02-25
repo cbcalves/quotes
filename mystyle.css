@@ -55,3 +55,9 @@ blockquote i {
   text-style: italic;
   text-align: right;
 }
+
+.btn {
+  border: none;
+  background-color: white;
+  font-size: 2rem;
+}

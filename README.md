@@ -12,6 +12,7 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Mudança para async/await - economia de dados da API.
 - [x] Adicionado botão para atualizar a página.
 - [x] Botão atualizar: ajustar CSS - [Issue](https://github.com/bernardocamps/quotes/issues/10)
+- [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)
 - [ ] Backend em desenvolvimento.
 - [ ] Criar banco de dados para armazenar as quotes.
 

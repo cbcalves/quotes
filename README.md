@@ -12,7 +12,7 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Mudança para async/await - economia de dados da API.
 - [x] Adicionado botão para atualizar a página.
 - [x] Botão atualizar: ajustar CSS - [Issue](https://github.com/bernardocamps/quotes/issues/10)
-- [x] Em desenvolvimento: Layout responsivo para ajustar melhor à tela de celulares - [Issue](https://github.com/bernardocamps/quotes/issues/12)
+- [x] Layout responsivo para ajustar melhor à tela de celulares - [Issue](https://github.com/bernardocamps/quotes/issues/12)
 - [x] Em desenvolvimento: Backend em Node.JS e Go - Heroku.
 - [x] Em desenvolvimento: banco de dados (MongoDB) para armazenar as quotes.
 - [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)
@@ -29,3 +29,4 @@ Link: https://bernardocamps.github.io/quotes/
 * Saiba mais sobre Assessores de Propriedade - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Property_Accessors)
 * Introdução a Node e Express - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdução)
 * Como não deixar exposta a credencial de acesso ao Banco de Dados? [Link](https://github.com/motdotla/dotenv)
+* Layout responsivo: adicionando meta de viewport - [Link](https://github.com/bernardocamps/quotes/pull/13)

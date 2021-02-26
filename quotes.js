@@ -1,5 +1,4 @@
-// Utilizando Quotes Free API
-// https://type.fit/api/quotes
+// API - https://github.com/bernardocamps/quotes-heroku-2
 
 let globalText = null;
 let globalAuthor = null;
@@ -21,8 +20,7 @@ async function start() {
 
 async function getQuotes() {
     try {
-        // API temporária
-        res = await fetch('https://goquotes-api.herokuapp.com/api/v1/all/quotes');
+        res = await fetch('https://quotes2.herokuapp.com/api/quotes');
         globalQuotes = await res.json();
 
     } catch (err) {

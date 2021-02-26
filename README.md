@@ -36,6 +36,7 @@ Link: https://bernardocamps.github.io/quotes/
 * Saiba mais sobre Assessores de Propriedade - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Property_Accessors)
 
 ### Backend
+* O que é Backend? [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Introduction)
 * Introdução a Node e Express - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdução)
 
 ### Banco de Dados

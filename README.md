@@ -13,8 +13,9 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Adicionado botão para atualizar a página.
 - [x] Botão atualizar: ajustar CSS - [Issue](https://github.com/bernardocamps/quotes/issues/10)
 - [x] Layout responsivo para ajustar melhor à tela de celulares - [Issue](https://github.com/bernardocamps/quotes/issues/12)
-- [x] Em desenvolvimento: Backend em Node.JS e Go - Heroku.
-- [x] Em desenvolvimento: banco de dados (MongoDB) para armazenar as quotes.
+- [x] Banco de dados (MongoDB) para armazenar as quotes.
+- [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
+- [x] Em desenvolvimento: Backend em Go - Heroku.
 - [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)
 
 

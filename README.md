@@ -7,6 +7,11 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 Link: https://bernardocamps.github.io/quotes/
 
+#### Respositórios do Backend
+- **JavaScript**: [Link](https://github.com/bernardocamps/quotes-heroku-2)
+- **TypeScript**: em desenvolvimento
+- **Go**: em desenvolvimento
+
 ## ⚙ Melhorias
 - [x] Introdução de css e melhorias na interface.
 - [x] Mudança para async/await - economia de dados da API.
@@ -15,7 +20,8 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Layout responsivo para ajustar melhor à tela de celulares - [Issue](https://github.com/bernardocamps/quotes/issues/12)
 - [x] Banco de dados (MongoDB) para armazenar as quotes.
 - [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
-- [x] Em desenvolvimento: Backend em Go - Heroku.
+- [x] Em desenvolvimento: Backend em TypeScript.
+- [x] Em desenvolvimento: Backend em Go.
 - [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)
 
 

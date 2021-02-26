@@ -37,7 +37,7 @@ function inspiracao() {
     if (globalQuotes.length === 0) {
         return;
     }
-    var i = Math.floor(Math.random() * globalQuotes.quotes.length);
-    globalText.innerHTML = globalQuotes.quotes[i].text;
-    globalAuthor.innerHTML = globalQuotes.quotes[i].author;
+    var i = Math.floor(Math.random() * globalQuotes.length);
+    globalText.innerHTML = globalQuotes[i].text;
+    globalAuthor.innerHTML = globalQuotes[i].author;
 }

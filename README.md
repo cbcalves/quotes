@@ -5,7 +5,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 **Objetivo**: criar um projeto em JavaScript para mostrar **quotes** diferentes todos os dias.
 
-Link: https://bernardocamps.github.io/quotes/
+Link: https://quotes2.herokuapp.com
 
 #### Respositórios do Backend
 - **JavaScript**: [Link](https://github.com/bernardocamps/quotes-heroku-2)
@@ -20,6 +20,7 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Layout responsivo para ajustar melhor à tela de celulares - [Issue](https://github.com/bernardocamps/quotes/issues/12)
 - [x] Banco de dados (MongoDB) para armazenar as quotes.
 - [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
+- [x] Conectados frontend e backend com melhora importante na performance.
 - [x] Em desenvolvimento: Backend em TypeScript.
 - [x] Em desenvolvimento: Backend em Go.
 - [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)

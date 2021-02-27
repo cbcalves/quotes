@@ -18,7 +18,6 @@ Link: https://quotes2.herokuapp.com
 - [x] Conectados frontend e backend com melhora importante na performance - [Link do PR](https://github.com/bernardocamps/quotes-heroku-2/pull/1)
 - [x] Em desenvolvimento: Backend em TypeScript.
 - [x] Em desenvolvimento: Backend em Go.
-- [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)
 
 
 ## 📚 Entendendo o código

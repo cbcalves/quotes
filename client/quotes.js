@@ -34,9 +34,6 @@ async function inspiracao() {
     const quote = await getQuote();
     if (quote) {
         let { text, author } = quote;
-        if (!text) {
-            text = 'No Text';
-        }
         if (!author) {
             author = 'Unknown';
         }

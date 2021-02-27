@@ -35,10 +35,14 @@ Link: https://quotes2.herokuapp.com
 * O que significa a declaração try...catch? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch)
 * O que são Operadores de Comparação? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_de_comparação)
 * Saiba mais sobre Assessores de Propriedade - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Property_Accessors)
+* Entendendo a função Math.random() - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 ### Backend
 * O que é Backend? [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Introduction)
 * Introdução a Node e Express - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdução)
+* Entregando arquivos estáticos no Express - [Link](https://expressjs.com/pt-br/starter/static-files.html)
+* Definindo rotas no Express - [Link](https://expressjs.com/pt-br/guide/routing.html)
+* O que é res.status(400)? Saiba em "Códigos de status de respostas HTTP" - [Link](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
 
 ### Banco de Dados
 * Como não deixar exposta a credencial de acesso ao Banco de Dados? [Link](https://github.com/motdotla/dotenv)

@@ -20,7 +20,7 @@ Link: https://quotes2.herokuapp.com
 - [x] Layout responsivo para ajustar melhor à tela de celulares - [Issue](https://github.com/bernardocamps/quotes/issues/12)
 - [x] Banco de dados (MongoDB) para armazenar as quotes.
 - [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
-- [x] Conectados frontend e backend com melhora importante na performance.
+- [x] Conectados frontend e backend com melhora importante na performance - [Link do PR](https://github.com/bernardocamps/quotes-heroku-2/pull/1)
 - [x] Em desenvolvimento: Backend em TypeScript.
 - [x] Em desenvolvimento: Backend em Go.
 - [ ] Implementar um Pull to Refresh - [Issue](https://github.com/bernardocamps/quotes/issues/11)

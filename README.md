@@ -7,11 +7,6 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 Link: https://quotes2.herokuapp.com
 
-#### Respositórios do Backend
-- **JavaScript**: [Link](https://github.com/bernardocamps/quotes-heroku-2)
-- **TypeScript**: em desenvolvimento
-- **Go**: em desenvolvimento
-
 ## ⚙ Melhorias
 - [x] Introdução de css e melhorias na interface.
 - [x] Mudança para async/await - economia de dados da API.

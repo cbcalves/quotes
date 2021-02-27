@@ -44,5 +44,10 @@ Link: https://quotes2.herokuapp.com
 * Definindo rotas no Express - [Link](https://expressjs.com/pt-br/guide/routing.html)
 * O que é res.status(400)? Saiba em "Códigos de status de respostas HTTP" - [Link](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
 
-### Banco de Dados
+### Banco de Dados (MongoDB Atlas)
 * Como não deixar exposta a credencial de acesso ao Banco de Dados? [Link](https://github.com/motdotla/dotenv)
+* Extraindo os dados do banco de dados:
+    * .find() - [Link](https://docs.mongodb.com/manual/reference/method/db.collection.find/#db.collection.find)
+    * .skip() - [Link](https://docs.mongodb.com/manual/reference/method/cursor.skip/#cursor.skip)
+    * .limit() - [Link](https://docs.mongodb.com/manual/reference/method/cursor.limit/)
+    * .toArray() - [Link](https://docs.mongodb.com/manual/reference/method/cursor.toArray/)

@@ -19,6 +19,13 @@ Link: https://quotes2.herokuapp.com
 - [x] Em desenvolvimento: Backend em TypeScript.
 - [x] Em desenvolvimento: Backend em Go.
 
+## 👥 Participantes (ordem alfabética)
+- [Bernardo Campos](https://github.com/bernardocamps)
+- [Bruno Sana](https://github.com/brunosana)
+- [Carlos Alves](https://github.com/cbcalves)
+- [Marcelo Pinheiro](https://github.com/mpinheir)
+- [Mariana Lira](https://github.com/marilira)
+- [Mateus Mercer](https://github.com/MatMercer)
 
 ## 📚 Entendendo o código
 ### HTML

@@ -41,7 +41,9 @@ async function getQuotes() {
         }];
     }
     // finish loading
-    document.body.classList.remove('loading');
+    setTimeout(function () {
+        document.body.classList.remove('loading');
+    }, 300);
 }
 
 // Função que acessa os dados retornados pela API - JSON

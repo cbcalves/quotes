@@ -28,6 +28,7 @@ blockquote {
   font: 1em/150% sans-serif;
   position: relative;
   background-color: lightblue;
+  border-radius: 10px;
 }
 
 blockquote::before,
@@ -60,4 +61,7 @@ blockquote i {
   border: none;
   background-color: white;
   font-size: 2rem;
+  outline: none;
+  cursor: pointer;
 }
+

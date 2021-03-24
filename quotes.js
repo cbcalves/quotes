@@ -25,6 +25,10 @@ async function start() {
 
 // Função assíncrona - recebe os dados da API
 async function getQuotes() {
+
+    // init loading
+    document.body.classList.add('loading');
+
     try {
         res = await fetch('https://shielded-chamber-42580.herokuapp.com');
         globalQuotes = await res.json();
@@ -36,6 +40,8 @@ async function getQuotes() {
             author: 'Error'
         }];
     }
+    // finish loading
+    document.body.classList.remove('loading');
 }
 
 // Função que acessa os dados retornados pela API - JSON

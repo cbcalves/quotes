@@ -29,6 +29,10 @@ blockquote {
   position: relative;
   background-color: lightblue;
   border-radius: 10px;
+  width: 100%;
+
+  transition: opacity 1s ease-out;
+  opacity: 1;
 }
 
 blockquote::before,
@@ -65,3 +69,19 @@ blockquote i {
   cursor: pointer;
 }
 
+@keyframes loading-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body.loading .btn:first-child {
+  animation: loading-rotate infinite 1s ease-out;
+}
+
+body.loading blockquote {
+  opacity: .0;
+}

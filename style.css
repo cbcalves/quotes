@@ -20,8 +20,6 @@ body {
   align-items: center;
   justify-content: center;
   outline: none;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
 }
 
 blockquote {
@@ -69,6 +67,8 @@ blockquote i {
   font-size: 2rem;
   outline: none;
   cursor: pointer;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 @-webkit-keyframes loading-rotate {

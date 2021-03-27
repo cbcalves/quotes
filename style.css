@@ -67,17 +67,6 @@ blockquote i {
   font-size: 2rem;
   outline: none;
   cursor: pointer;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-@-webkit-keyframes loading-rotate {
-  0% {
-    -webkit-transform: rotate(0);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
 }
 
 @keyframes loading-rotate {

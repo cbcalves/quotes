@@ -78,6 +78,15 @@ blockquote i {
   }
 }
 
+@-webkit-keyframes loading-rotate {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
 body.loading .btn:first-child {
   animation: loading-rotate infinite 1s ease-out;
 }

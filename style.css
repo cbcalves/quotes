@@ -20,6 +20,8 @@ body {
   align-items: center;
   justify-content: center;
   outline: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 blockquote {

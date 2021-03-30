@@ -59,6 +59,7 @@ blockquote i {
   font-size: 0.8em;
   margin-top: 1rem;
   text-align: right;
+  z-index: 1;
 }
 
 .btn {
@@ -67,6 +68,7 @@ blockquote i {
   font-size: 2rem;
   outline: none;
   cursor: pointer;
+  
 }
 
 @keyframes loading-rotate {

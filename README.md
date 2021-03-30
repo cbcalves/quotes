@@ -25,6 +25,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 - [Bruno Sana](https://github.com/brunosana)
 - [Carlos Alves](https://github.com/cbcalves)
 - [Gabriel Mendonça](https://github.com/brunoom1)
+- [Lucas Lacerda](https://github.com/LucasLaacerda)
 - [Marcelo Pinheiro](https://github.com/mpinheir)
 - [Mariana Lira](https://github.com/marilira)
 - [Mateus Mercer](https://github.com/MatMercer)

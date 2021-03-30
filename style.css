@@ -33,6 +33,7 @@ blockquote {
 
   transition: opacity 1s ease-out;
   opacity: 1;
+  z-index: 1;
 }
 
 blockquote::before,
@@ -59,7 +60,6 @@ blockquote i {
   font-size: 0.8em;
   margin-top: 1rem;
   text-align: right;
-  z-index: 1;
 }
 
 .btn {

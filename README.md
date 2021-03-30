@@ -36,6 +36,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 ### CSS
 * O que é CSS? - [Link](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico)
+* Z-index - para que serve? - [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
 
 ### JavaScript
 * O que é JavaScript? - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)

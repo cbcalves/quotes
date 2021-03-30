@@ -20,7 +20,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 - [x] Em desenvolvimento: Backend em TypeScript.
 - [x] Em desenvolvimento: Backend em Go.
 
-## 👥 Participantes (ordem alfabética)
+## 👥 Contribuidores (ordem alfabética)
 - [Bernardo Campos](https://github.com/bernardocamps)
 - [Bruno Sana](https://github.com/brunosana)
 - [Carlos Alves](https://github.com/cbcalves)

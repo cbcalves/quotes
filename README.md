@@ -18,6 +18,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 - [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
 - [x] Conectados frontend e backend com melhora importante na performance - [Link do PR](https://github.com/bernardocamps/quotes-heroku-2/pull/1)
 - [x] Backend em Go - [Link da API](https://shielded-chamber-42580.herokuapp.com)
+- [x] Adicionada animação em JS do botão atualizar - [Link do PR](https://github.com/bernardocamps/quotes/pull/19)
 
 ## 👥 Contribuidores (ordem alfabética)
 - [Bernardo Campos](https://github.com/bernardocamps)

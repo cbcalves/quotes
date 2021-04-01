@@ -17,7 +17,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 - [x] Banco de dados (MongoDB) para armazenar as quotes.
 - [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
 - [x] Conectados frontend e backend com melhora importante na performance - [Link do PR](https://github.com/bernardocamps/quotes-heroku-2/pull/1)
-- [x] Backend em Go - [Link da API](https://shielded-chamber-42580.herokuapp.com)
+- [x] Backend em Go - [Link do repositório](https://github.com/mpinheir/quotes-backend)
 - [x] Adicionada animação em JS do botão atualizar - [Link do PR](https://github.com/bernardocamps/quotes/pull/19)
 
 ## 👥 Contribuidores (ordem alfabética)

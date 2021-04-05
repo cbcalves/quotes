@@ -8,6 +8,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 - Link para versão em Inglês: https://quotes2.herokuapp.com
 - Link para versão em Português: https://bernardocamps.github.io/quotes/
 - Link para o respositório do Backend em Go: https://github.com/mpinheir/quotes-backend
+- Link para o respositório da versão em Flutter do Lucas Lacerda: https://github.com/LucasLaacerda/Citei
 
 ## ⚙ Melhorias
 - [x] Introdução de css e melhorias na interface.

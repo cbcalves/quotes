@@ -7,6 +7,8 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 - Link para versão em Inglês: https://quotes2.herokuapp.com
 - Link para versão em Português: https://bernardocamps.github.io/quotes/
+- Link para o respositório do Backend em Go: https://github.com/mpinheir/quotes-backend
+- Link para o respositório da versão em Flutter do Lucas Lacerda: https://github.com/LucasLaacerda/Citei
 
 ## ⚙ Melhorias
 - [x] Introdução de css e melhorias na interface.
@@ -17,13 +19,15 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 - [x] Banco de dados (MongoDB) para armazenar as quotes.
 - [x] Backend em ExpressJS - Heroku - [Link](https://github.com/bernardocamps/quotes-heroku-2)
 - [x] Conectados frontend e backend com melhora importante na performance - [Link do PR](https://github.com/bernardocamps/quotes-heroku-2/pull/1)
-- [x] Em desenvolvimento: Backend em TypeScript.
-- [x] Em desenvolvimento: Backend em Go.
+- [x] Backend em Go - [Link do repositório](https://github.com/mpinheir/quotes-backend)
+- [x] Adicionada animação em JS do botão atualizar - [Link do PR](https://github.com/bernardocamps/quotes/pull/19)
 
-## 👥 Participantes (ordem alfabética)
+## 👥 Contribuidores (ordem alfabética)
 - [Bernardo Campos](https://github.com/bernardocamps)
 - [Bruno Sana](https://github.com/brunosana)
 - [Carlos Alves](https://github.com/cbcalves)
+- [Gabriel Mendonça](https://github.com/brunoom1)
+- [Lucas Lacerda](https://github.com/LucasLaacerda)
 - [Marcelo Pinheiro](https://github.com/mpinheir)
 - [Mariana Lira](https://github.com/marilira)
 - [Mateus Mercer](https://github.com/MatMercer)
@@ -35,6 +39,7 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 ### CSS
 * O que é CSS? - [Link](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico)
+* Z-index - para que serve? - [Link](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
 
 ### JavaScript
 * O que é JavaScript? - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)

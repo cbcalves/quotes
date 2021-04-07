@@ -2,9 +2,10 @@
   "name": "quotes-backend",
   "version": "1.0.0",
   "description": "Para saber mais sobre o projeto: https://github.com/bernardocamps/quotes",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node ./src/app.js",
+    "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,5 +27,8 @@
   },
   "engines": {
     "node": "v14.15.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

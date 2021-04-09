@@ -1,5 +1,5 @@
 {
-  "name": "quotes",
+  "name": "quotes-backend",
   "version": "1.0.0",
   "description": "Para saber mais sobre o projeto: https://github.com/bernardocamps/quotes",
   "main": "src/app.js",
@@ -10,15 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bernardocamps/quotes"
-    
+    "url": "git+https://github.com/bernardocamps/quotes-heroku-2.git"
   },
-  "author": "OsProgramadores",
+  "author": "Bernardo Campos",
   "license": "ISC",
   "bugs": {
-    "url": "https://osprogramadores.com"
+    "url": "https://github.com/bernardocamps/quotes-heroku-2/issues"
   },
-  "homepage": "https://github.com/bernardocamps/quotes#readme",
+  "homepage": "https://github.com/bernardocamps/quotes-heroku-2#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

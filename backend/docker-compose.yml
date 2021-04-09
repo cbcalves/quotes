@@ -2,9 +2,9 @@ version: "3.9"
 services: 
   database:
     container_name: quote_database
-    image: mariadb/server:10.4
+    image: mariadb
     environment: 
-      - MARIADB_DATABASE=quote
-      - MARIADB_USER=admin
-      - MARIADB_PASSWORD=123456
-      - MARIADB_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=quote
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=123456
+      - MYSQL_ROOT_PASSWORD=123456

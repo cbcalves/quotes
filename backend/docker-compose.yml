@@ -3,6 +3,8 @@ services:
   database:
     container_name: quote_database
     image: mariadb/server:10.4
+    ports: 
+      - "33067:3306"
     environment: 
       - MARIADB_DATABASE=quote
       - MARIADB_USER=admin

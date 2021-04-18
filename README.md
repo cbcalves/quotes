@@ -5,12 +5,18 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 
 **Objetivo**: criar um projeto em JavaScript para mostrar **quotes** diferentes todos os dias.
 
-- Link para versão em Inglês: https://quotes2.herokuapp.com
-- Link para versão em Português: https://bernardocamps.github.io/quotes/
-- Link para o respositório do Backend em Go: https://github.com/mpinheir/quotes-backend
-- Link para o respositório da versão em Flutter do Lucas Lacerda: https://github.com/LucasLaacerda/Citei
+## 🔗 Links
+- Versão em Inglês: https://quotes2.herokuapp.com
+- Versão em Português: https://bernardocamps.github.io/quotes/
+- Respositório do Backend em Go por Marcelo Pinheiro: https://github.com/mpinheir/quotes-backend
+- Respositório da versão em Flutter por Lucas Lacerda: https://github.com/LucasLaacerda/Citei
 
-## ⚙ Melhorias
+## 🚧 Melhorias em Andamento
+- [Migrar o banco do projeto de MongoDB pra MariaDB](https://github.com/bernardocamps/quotes/issues/29)
+- [Criar containers separados para o front end, back end e para o banco de dados](https://github.com/bernardocamps/quotes/issues/30)
+- [Criar autenticação para admins da solução](https://github.com/bernardocamps/quotes/issues/31)
+
+## ⚙ Melhorias Realizadas
 - [x] Introdução de css e melhorias na interface.
 - [x] Mudança para async/await - economia de dados da API.
 - [x] Adicionado botão para atualizar a página.
@@ -56,11 +62,3 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 * Entregando arquivos estáticos no Express - [Link](https://expressjs.com/pt-br/starter/static-files.html)
 * Definindo rotas no Express - [Link](https://expressjs.com/pt-br/guide/routing.html)
 * O que é res.status(400)? Saiba em "Códigos de status de respostas HTTP" - [Link](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
-
-### Banco de Dados (MongoDB Atlas)
-* Como não deixar exposta a credencial de acesso ao Banco de Dados? [Link](https://github.com/motdotla/dotenv)
-* Extraindo os dados do banco de dados:
-    * .find( ) - [Link](https://docs.mongodb.com/manual/reference/method/db.collection.find/#db.collection.find)
-    * .skip( ) - [Link](https://docs.mongodb.com/manual/reference/method/cursor.skip/#cursor.skip)
-    * .limit( ) - [Link](https://docs.mongodb.com/manual/reference/method/cursor.limit/)
-    * .toArray( ) - [Link](https://docs.mongodb.com/manual/reference/method/cursor.toArray/)

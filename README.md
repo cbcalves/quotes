@@ -6,15 +6,12 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 **Objetivo**: criar um projeto em JavaScript para mostrar **quotes** diferentes todos os dias.
 
 ## 🔗 Links
-- Versão em Inglês: https://quotes2.herokuapp.com
-- Versão em Português: https://bernardocamps.github.io/quotes/
+- Acesse em: https://bernardocamps.github.io/quotes/
 - Respositório do Backend em Go por Marcelo Pinheiro: https://github.com/mpinheir/quotes-backend
 - Respositório da versão em Flutter por Lucas Lacerda: https://github.com/LucasLaacerda/Citei
 
 ## 🚧 Melhorias em Andamento
-- [Migrar o banco do projeto de MongoDB pra MariaDB](https://github.com/bernardocamps/quotes/issues/29)
-- [Criar containers separados para o front end, back end e para o banco de dados](https://github.com/bernardocamps/quotes/issues/30)
-- [Criar autenticação para admins da solução](https://github.com/bernardocamps/quotes/issues/31)
+Acompanhe o andamento do Projeto em: [Link](https://github.com/bernardocamps/quotes/projects/2)
 
 ## ⚙ Melhorias Realizadas
 - [x] Introdução de css e melhorias na interface.

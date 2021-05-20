@@ -1,4 +1,10 @@
 services: 
+  # node:
+  #   image: node:14
+  #   ports:
+  #     - "8080:8080"
+  #   command: npm start
+
   database:
     container_name: quote_database
     image: mariadb
@@ -9,6 +15,5 @@ services:
       - MYSQL_USER=admin
       - MYSQL_PASSWORD=123456
       - MYSQL_ROOT_PASSWORD=123456
-
     volumes:
       - ./init:/docker-entrypoint-initdb.d

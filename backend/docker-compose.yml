@@ -1,15 +1,18 @@
 services: 
   node:
     image: node:14
+    working_dir: /app
+    volumes: 
+      - ./:/app
     ports:
       - "8080:8080"
     command: npm start
 
-  database:
+  mariadb:
     container_name: quote_database
     image: mariadb
     ports: 
-      - "33067:3306"
+      - "3307:3306"
     environment: 
       - MYSQL_DATABASE=quote
       - MYSQL_USER=admin

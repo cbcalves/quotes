@@ -19,8 +19,8 @@ app.listen(port, async() => {
     try {
         const result = await typeorm.createConnection({
             type: process.env.DB_TYPE || 'mysql',
-            host: process.env.DB_HOST || 'localhost',
-            port: process.env.DB_PORT || 33067,
+            host: process.env.DB_HOST || 'mariadb',
+            port: process.env.DB_PORT || 3306,
             username: process.env.DB_USER || 'admin',
             password: process.env.DB_PASS || '123456',
             database: process.env.DB_NAME || 'quote',

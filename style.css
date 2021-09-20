@@ -71,6 +71,15 @@ blockquote i {
   
 }
 
+.btn-rotate {
+  border: none;
+  background-color: white;
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+  
+}
+
 @keyframes loading-rotate {
   0% {
     transform: rotate(0);
@@ -80,7 +89,7 @@ blockquote i {
   }
 }
 
-body.loading .btn:first-child {
+body.loading .btn-rotate:first-child {
   animation: loading-rotate infinite 1s ease-out;
 }
 
